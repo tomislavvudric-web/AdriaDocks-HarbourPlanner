@@ -1,0 +1,18 @@
+ADRIA DOCKS HARBOUR PLANNER v3.19
+
+ZAJEDNIČKI RAD:
+1. Kopirajte index.html, api.php i data.json u isti folder na web serveru koji podržava PHP.
+2. Folder mora imati pravo pisanja nad data.json.
+3. Svi kolege otvaraju isti URL do index.html.
+4. Status gore pokazuje SYNC kad je zajednička baza dostupna; LOKALNO kad nije.
+5. Aplikacija povlači promjene svakih 15 sekundi, a spremanje odmah šalje promjenu na server.
+
+BACKUP:
+- BACKUP sprema JSON svih projekata na računalo.
+- VRATI učitava taj JSON i zatim ga sinkronizira na server.
+
+EXCEL:
+- VREMENSKA TRAKA > IZVOZ EXCEL izvozi projekte i zauzetost vezova za odabrani mjesec / 2 mjeseca / godinu.
+
+NAPOMENA:
+Ako se index.html otvori direktno s računala (file://), program radi lokalno, ali zajednička sinkronizacija nije dostupna.
